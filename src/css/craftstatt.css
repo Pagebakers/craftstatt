@@ -1,0 +1,12 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.image.avatar img {
+  border-radius: 0;
+  width: 100%;
+}
+
+#header {
+  background-image: url("../images/overlay.png"), url("../images/bike.jpg");
+}

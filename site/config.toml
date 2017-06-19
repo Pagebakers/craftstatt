@@ -1,0 +1,140 @@
+baseurl = "https://www.craftstatt.de/"
+languageCode = "en-us"
+title = "Craftstatt"
+theme = "hugo-strata-theme"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 0
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Eelco Wiersma"
+  description = "Describe your website"
+
+  # Format dates with Go's time formatting
+  date_format = "01-02-2006"
+
+  # Add custom assets with their paths relative to the static folder
+  custom_js   = ['js/segment.js', 'js/app.js']
+  custom_css  = ['css/craftstatt.css']
+
+
+  [params.sidebar]
+    # Replace the avatar with a picture of your own under static/images
+    avatar = "logo.svg"
+    # Use Markdown to format the string. This works nearly all over the theme
+    bio = "Communal **workshop** for<br /> **motorcycle** enthusiasts<br /> based in **Berlin**"
+    # The icons will be shown if you enter your username
+    twitter = ""
+    github = ""
+    gitlab = ""
+    dribbble = ""
+    facebook = ""
+    googleplus = ""
+    flickr = ""
+    linkedin = ""
+    instagram = "craftstatt"
+
+    copyright = [
+      "&copy; Craftstatt"
+    ]
+
+  [params.about]
+    hide  = false
+    title = "Build, share and learn"
+    content = "Craftstatt is a friendly and inclusive community of bikers. It's a place where builders of all skill levels are welcome to share their passion for these amazing machines. Wether it's just to change your oil, filters and tires or to build your own dream bike. Craftstatt will provide you with the space, tools, hydrolic lift bays and the knowledge, all in the wonderful city of Berlin."
+
+
+  [params.portfolio]
+    hide  = true
+    title = "Recent Work"
+
+    # The images and thumbnails are stored under static/images
+    # Create and change subfolders as you like
+    [[params.portfolio.gallery]]
+      image = "fulls/01.jpg"
+      thumb = "thumbs/01.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/02.jpg"
+      thumb = "thumbs/02.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/03.jpg"
+      thumb = "thumbs/03.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/04.jpg"
+      thumb = "thumbs/04.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/05.jpg"
+      thumb = "thumbs/05.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/06.jpg"
+      thumb = "thumbs/06.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+  [params.recentposts]
+    hide  = true
+    title = "Recent blog posts"
+
+  [params.contact]
+    hide  = false
+    title = "Get Involved"
+    content = "We'd love to have you onboard! Leave your details below to stay in the loop about future updates."
+
+    #address = [
+    #  "1234 Somewhere Rd.",
+    #  "Nashville, TN 00000",
+    #  "United States"
+    #]
+    #phone = "000-000-0000"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+      #
+      # What you need to do for the setup?
+      #
+      # - set your email address under 'email' below
+      # - upload the generated site to your server
+      # - send a dummy email yourself to confirm your account
+      # - click the confirm link in the email from www.formspree.io
+      # - you're done. Happy mailing!
+    email = "hello@craftstatt.de"
+
+    [params.contact.form]
+      # Set custom strings for the form if your native
+      # language isn't English
+      name = "Name"
+      email = "Email"
+      message = "Tell us a little bit about your yourself, skills, projects, etc."
+      submit = "Submit"
+
+
+# Menu links that appear on the left sidebar
+#[[menu.main]]
+#  name = "Home"
+#  url  = "/"
+#  weight = 0
+
+#[[menu.main]]
+#  name = "Blog"
+#  url  = "post/"
+#  weight = 10
