@@ -2,3 +2,5 @@
 analytics.load("IXT9Ic8SUkqxWeNuv6roj64n2LjGoodv");
 analytics.page();
 }}();
+
+export default analytics

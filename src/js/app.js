@@ -1,3 +1,5 @@
+import analytics from './segment.js'
+
 jQuery(function() {
   $('#contact-form form').submit(function(e) {
     e.preventDefault()

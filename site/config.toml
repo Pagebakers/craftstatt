@@ -18,8 +18,8 @@ paginate = 0
   date_format = "01-02-2006"
 
   # Add custom assets with their paths relative to the static folder
-  custom_js   = ['js/segment.js', 'js/app.js']
-  custom_css  = ['css/main.css']
+  custom_js   = ['js/app.js']
+  custom_css  = ['css/craftstatt.css']
 
 
   [params.sidebar]
