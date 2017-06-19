@@ -19,7 +19,7 @@ paginate = 0
 
   # Add custom assets with their paths relative to the static folder
   custom_js   = ['js/segment.js', 'js/app.js']
-  custom_css  = ['css/craftstatt.css']
+  custom_css  = ['css/main.css']
 
 
   [params.sidebar]
